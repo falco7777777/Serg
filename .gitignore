@@ -1,0 +1,14 @@
+# python / env
+.venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+
+# scratch renders & previews
+build/
+
+# alternate generated poses (only the master pose is used by the rig)
+assets/keyframes/*.png
+!assets/keyframes/k4.png
